@@ -1,6 +1,6 @@
 
 public class Contact {
-	public String contactName;
+	public String contactName;//
 	public String phoneNumber;
 	public String email;
 	public String address;
