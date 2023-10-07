@@ -11,6 +11,7 @@ Scanner input=new Scanner(System.in);
 		int ch=0;
 		
 		LinkedListADT l1=new LinkedListADT();
+	        Event l2 = new Event();
 		System.out.println("Welcome to the Linked Tree Phonebook! ");
 		System.out.println();
 		try {
@@ -85,6 +86,17 @@ Scanner input=new Scanner(System.in);
 			l1.remove(input.next());
 			
 		}
+			if(ch==4) {
+		System.out.println("Enter event title:");
+		String et=input.next();
+		System.out.println("Enter contact name::");
+		String cn=input.next();
+		System.out.println("Enter event date and time:");
+		String edt=input.next();
+		System.out.println("Enter event location:");
+		String el=input.next();
+		l2.insert(cn, et, edt, el);
+	}
 		
 		}
 		}catch(Exception e){System.out.println("Invalid input! Enter a number between 1 and 8");}
