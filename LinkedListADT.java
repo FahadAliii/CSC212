@@ -28,8 +28,7 @@ public class LinkedListADT implements Comparable {
 	  System.out.println("Contact added successfully!");
 	  }
 		if(instanceof Event){
-			Contact tmp1=head;
-	Contact tmp;
+			
   if(head==null)
 	  current=head=new Event(title, dateTime, location, contact);
   else {
