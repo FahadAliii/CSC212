@@ -10,7 +10,8 @@ public class LinkedListADT implements Comparable {
 	public void insert(String contactName, String phoneNumber, String email, String address, String birthday, String notes) {
 		Contact tmp1=head;
 		Contact tmp;
-	  if(head==null)
+	  if(instanceof Contact){
+		if(head==null)
 		  current=head=new Contact(contactName, phoneNumber, email, address, birthday, notes);
 	  else {
 		  while(tmp1!=null) {
@@ -25,7 +26,9 @@ public class LinkedListADT implements Comparable {
 		  
 	  }
 	  System.out.println("Contact added successfully!");
-		
+	  }
+		if(instanceof Event){
+			
 	}
 	@Override
 	public void remove( String name) {
