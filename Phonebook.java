@@ -95,7 +95,7 @@ Scanner input=new Scanner(System.in);
 		String edt=input.next();
 		System.out.println("Enter event location:");
 		String el=input.next();
-		l2.insert(cn, et, edt, el);
+		l1.insert(et, cn, edt, el);
 	}
 		
 		}
