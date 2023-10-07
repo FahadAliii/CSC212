@@ -1,4 +1,4 @@
-package dasd;
+
 
 public class Event {
 public Event head;
