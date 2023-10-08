@@ -1,4 +1,4 @@
-public class LinkedListADT implements Comparable {
+public class LinkedListADT  {
 	public Contact head;
 	public Contact current;
 	public LinkedListADT() {
@@ -6,7 +6,7 @@ public class LinkedListADT implements Comparable {
 		this.head = null;
 		this.current = null;
 	}
-	@Override
+	
 	public void insert(String contactName, String phoneNumber, String email, String address, String birthday, String notes) {
 		Contact tmp1=head;
 		Contact tmp;
@@ -43,7 +43,7 @@ public class LinkedListADT implements Comparable {
 	  current.next=tmp;
 			
 	}
-	@Override
+	
 	public void remove( String name) {
 		Contact tmp=head;
 			while(tmp!=null) {
